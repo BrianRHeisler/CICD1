@@ -5,7 +5,7 @@ pipeline {
         stage('Stage one') {
             steps {
                 script {
-                    echo "Parameter from template creation: " + templateParams.someParam
+                    echo "Hello World"
                 }
             }
         }
