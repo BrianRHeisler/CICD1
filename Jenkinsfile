@@ -1,13 +1,13 @@
 pipeline {
-        agent any
+    agent any
 
-        stages {
-            stage('Stage one') {
-                steps {
-                    script {
-                        echo "Parameter from template creation: " + templateParams.someParam
-                    }
+    stages {
+        stage('Stage one') {
+            steps {
+                script {
+                    echo "Parameter from template creation: " + templateParams.someParam
                 }
             }
         }
     }
+}
