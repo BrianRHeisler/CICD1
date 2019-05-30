@@ -5,7 +5,7 @@ pipeline {
         stage('Stage one') {
             steps {
                 script {
-                    docker.build "IMAGE1"
+                    docker.build "demo1"
                 }
             }
         }
