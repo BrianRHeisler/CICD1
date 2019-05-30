@@ -4,9 +4,7 @@ pipeline {
     stages {
         stage('Stage one') {
             steps {
-                script {
-                    echo "Hello World"
-                }
+                docker.build "IMAGE1"
             }
         }
     }
